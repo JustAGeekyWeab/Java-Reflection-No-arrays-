@@ -1,0 +1,142 @@
+======================================================
+Filename: script6.txt
+Running Test: [Lorg.example.ClassB;@7b23ec81
+Recursive: true
+CLASS
+Class: [Lorg.example.ClassB;
+SUPERCLASS -> Recursively Inspect
+SuperClass: java.lang.Object
+	CLASS
+	Class: java.lang.Object
+	SuperClass: NONE
+	INTERFACES( java.lang.Object )
+	Interfaces-> NONE
+	CONSTRUCTORS( java.lang.Object )
+	Constructors->
+	 CONSTRUCTOR
+	  Name: java.lang.Object
+	  Exceptions-> NONE
+	  Parameter types:
+	  Modifiers: public
+	METHODS( java.lang.Object )
+	Methods->
+	 METHOD
+	  Name: finalize
+	  Exceptions->
+	  class java.lang.Throwable
+	  Parameter types-> NONE
+	  Return type: void
+	  Modifiers: protected
+	 METHOD
+	  Name: wait0
+	  Exceptions->
+	  class java.lang.InterruptedException
+	  Parameter types->
+	  long
+	  Return type: void
+	  Modifiers: private final native
+	 METHOD
+	  Name: equals
+	  Exceptions-> NONE
+	  Parameter types->
+	  class java.lang.Object
+	  Return type: boolean
+	  Modifiers: public
+	 METHOD
+	  Name: toString
+	  Exceptions-> NONE
+	  Parameter types-> NONE
+	  Return type: class java.lang.String
+	  Modifiers: public
+	 METHOD
+	  Name: hashCode
+	  Exceptions-> NONE
+	  Parameter types-> NONE
+	  Return type: int
+	  Modifiers: public native
+	 METHOD
+	  Name: getClass
+	  Exceptions-> NONE
+	  Parameter types-> NONE
+	  Return type: class java.lang.Class
+	  Modifiers: public final native
+	 METHOD
+	  Name: clone
+	  Exceptions->
+	  class java.lang.CloneNotSupportedException
+	  Parameter types-> NONE
+	  Return type: class java.lang.Object
+	  Modifiers: protected native
+	 METHOD
+	  Name: notify
+	  Exceptions-> NONE
+	  Parameter types-> NONE
+	  Return type: void
+	  Modifiers: public final native
+	 METHOD
+	  Name: notifyAll
+	  Exceptions-> NONE
+	  Parameter types-> NONE
+	  Return type: void
+	  Modifiers: public final native
+	 METHOD
+	  Name: wait
+	  Exceptions->
+	  class java.lang.InterruptedException
+	  Parameter types->
+	  long
+	  Return type: void
+	  Modifiers: public final
+	 METHOD
+	  Name: wait
+	  Exceptions->
+	  class java.lang.InterruptedException
+	  Parameter types->
+	  long
+	  int
+	  Return type: void
+	  Modifiers: public final
+	 METHOD
+	  Name: wait
+	  Exceptions->
+	  class java.lang.InterruptedException
+	  Parameter types-> NONE
+	  Return type: void
+	  Modifiers: public final
+	FIELDS( java.lang.Object )
+	Fields-> NONE
+INTERFACES( [Lorg.example.ClassB; )
+Interfaces->
+ INTERFACE -> Recursively Inspect
+ java.lang.Cloneable
+	CLASS
+	Class: java.lang.Cloneable
+	SuperClass: NONE
+	INTERFACES( java.lang.Cloneable )
+	Interfaces-> NONE
+	CONSTRUCTORS( java.lang.Cloneable )
+	Constructors-> NONE
+	METHODS( java.lang.Cloneable )
+	Methods-> NONE
+	FIELDS( java.lang.Cloneable )
+	Fields-> NONE
+ INTERFACE -> Recursively Inspect
+ java.io.Serializable
+	CLASS
+	Class: java.io.Serializable
+	SuperClass: NONE
+	INTERFACES( java.io.Serializable )
+	Interfaces-> NONE
+	CONSTRUCTORS( java.io.Serializable )
+	Constructors-> NONE
+	METHODS( java.io.Serializable )
+	Methods-> NONE
+	FIELDS( java.io.Serializable )
+	Fields-> NONE
+CONSTRUCTORS( [Lorg.example.ClassB; )
+Constructors-> NONE
+METHODS( [Lorg.example.ClassB; )
+Methods-> NONE
+FIELDS( [Lorg.example.ClassB; )
+Fields-> NONE
+======================================================
